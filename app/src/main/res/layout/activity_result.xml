@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ResultActivity">
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ваш вес:"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Кол-во шагов/день"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вывод шагов"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="537dp" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вывод веса"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="496dp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Верхнее давление:"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вывод Н.Давления"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Нижнее давление:"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="453dp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вывод В.Давления"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="412dp" />
+
+    <TextView
+        android:id="@+id/authorApp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="82dp"
+        android:text="@string/aboutDeveloper"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toBottomOf="@+id/titleApp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="139dp"
+        android:layout_height="148dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/__2020_04_29__08_45_28" />
+
+    <TextView
+        android:id="@+id/titleApp"
+        android:layout_width="180dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/titleApp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Результаты:"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Пульс:"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вывод пульса"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Дата замера:"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Вывод даты"
+        tools:layout_editor_absoluteX="286dp"
+        tools:layout_editor_absoluteY="330dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="358dp"
+        android:layout_height="34dp"
+        android:text="Уважаемый Name, спасибо за использование нашей программы"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="35dp"
+        android:text="Задонатить проекту 500 рублей"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

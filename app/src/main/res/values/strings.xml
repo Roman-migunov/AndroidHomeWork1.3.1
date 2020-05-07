@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Мониторинг здоровья 2.0</string>
+    <string name="aboutDeveloper">От Романа Мигунова</string>
+    <string name="titleApp">Комплексная система мониторинга здоровья</string>
+    <string name="hintEditTextUserName">Введите имя</string>
+    <string name="hintEditTextUserOld">Введите возраст</string>
+    <string name="textButtonSave">Сохранить</string>
+</resources>
